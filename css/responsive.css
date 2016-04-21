@@ -1,0 +1,136 @@
+/* Styles for larger screens */
+
+/**************************
+Screen Size 668+
+**************************/
+
+@media screen and (min-width: 668px) {
+
+	body {
+		font-size: 1.8em;
+		line-height: 1.8em;
+	}	
+
+	nav {
+	left: 45%;
+	}
+
+	.bannerimage {
+		height: 900px;
+	}
+
+	.headline {
+	 	text-align: center;
+  		top: 32%;
+  		left: 12%;		
+  		font-size: 2.7em;  
+		font-weight: 400;
+		line-height: 1.15em;
+		letter-spacing: 0.03em;
+		word-spacing: 0.015em;
+	}
+
+	.wrapper {
+		padding: 0 13%;
+	}
+
+	footer {
+		height: 300px;
+		margin-top: 200px;
+	}
+
+	.social-section {
+		padding: 3% 0% 1.5% 0%;
+		margin: 0 auto;
+		clear: both;
+	}
+
+/* TWO COLUMN LAYOUT
+(body graphic & footer)*/
+
+	.graphic {
+		float: right;
+		margin: 0px 0px 10px 10px;
+		padding: 0px 0px 10px 10px;
+	}
+
+	.flex {
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: flex; 
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+		margin: 0 auto;
+	  }
+}
+
+
+/**************************
+Screen Size 1025+
+**************************/
+
+
+@media screen and (min-width: 1025px) {
+
+	body {
+		font-size: 2.08em;
+		line-height: 2.08em;
+	}
+	
+	nav {
+	left: 65%;
+	}
+
+	.bannerimage {
+		height: 1200px;
+	}
+
+
+	.headline {
+  		top: 43%;
+  		left: 27%;		
+  		font-size: 3em;  
+		line-height: 1.25em;
+		letter-spacing: 0.04em;
+		word-spacing: 0.02em;
+	}	
+
+	.wrapper {
+		padding: 0 16%;
+	}
+
+	footer {
+		height: 175px;
+		margin-top: 350px;
+	}
+
+	.footer-left {
+		width: 100%;
+		border-top: 4px solid #fff;
+		margin-right: 6%;
+	}
+
+	.footerlogo {
+		float: left;
+		margin-right: 7%;
+	}
+
+	.address {
+		text-align: left;
+		padding-top: 3%;
+	}
+
+	.social-section {
+		width: 100%;
+		border-top: 4px solid #fff;
+		padding-top: 2.5%;
+		padding-bottom: 7%;
+	}
+
+	.footerlogo {
+		padding: 7% 0 0 0;
+		border-radius: 35%; 
+		/*Adjusted from 50%
+		because it was distorting 
+		this logo screenshot...why is that?...*/
+	}
+}

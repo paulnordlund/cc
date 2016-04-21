@@ -1,0 +1,169 @@
+/* Styles for mobile+ screens
+(See responsive.css for media queries) */
+
+/**************************
+GENERAL
+**************************/
+
+body {
+	width: 100%;
+	background: transparent;
+	color: #303030;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 10%;
+	color: #303030;
+}
+
+a {
+	text-decoration: none;
+}
+
+/**************************
+HEADING
+**************************/
+
+.logo {
+	position: absolute;
+	z-index: 2;
+	margin: 3% 0 0 7%;
+	border-radius: 50%;
+	height: 100px;
+}
+
+header {
+	margin: 0 0 30px 0;
+	padding: 0;
+	width: 100%;
+}
+
+.slickslider {
+
+}
+
+.bannerimage {
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 600px;
+	top: 0;
+	right: 0;
+	padding-bottom: 4%;
+}
+
+.headline {
+ 	position: absolute;
+  	z-index: 10;
+  	text-align: center;
+  	vertical-align: center;
+  	top: 22%;
+  	left: 10%;  
+  	color: #fff;
+  	font-family: 'Merriweather', serif;
+  	font-size: 2.4em;  
+  	font-weight: 400;
+  	line-height: 1.05em;
+  	letter-spacing: 0.02em;
+  	word-spacing: 0.01em;
+}
+
+/**************************
+NAVIGATION
+**************************/
+
+nav {
+	position: absolute;
+	z-index: 9;
+	left: 40%;
+	text-align: right;
+	margin: 3% 7% 0 0;
+	list-style: none;
+	padding: 0;
+	background-color: transparent;
+}
+
+nav li {
+	display: inline-block;
+	padding-left: 50px;	
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: .85em;
+	letter-spacing: .05em;
+}
+
+nav a {
+	color: #fff;
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+nav a.selected, nav a:hover {
+	color: #E0E0E0;
+}
+
+/**************************
+BODY
+**************************/
+	
+.graphic {
+	max-width: 100%;
+	clear: left;
+}
+
+
+/**************************
+FOOTER
+**************************/
+
+footer {
+	margin-top: 150px;
+	padding-top: 100px;
+	background-color: #505050;
+	color: #fff;
+	width: 100%;
+	height: 300px;
+}
+
+.footerwrapper {
+	padding: 0 16%;
+	margin: 0 auto;
+	}
+
+.footerlogo {
+	border-radius: 50%; 
+	height: 100px;
+	display: block;
+	margin: 0 auto;	
+}
+
+.address {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: .015em;
+	line-height: 1.2em;
+}
+
+.social-section {
+	margin: 0 auto;
+	clear: both;
+	padding-left: 8%;
+}
+
+.social-icons {
+	width: 35px;
+	height: 35px;
+	margin: 0px 10px;
+}
+
+.social-icons:hover {
+  	transform: scale(1.1);
+}
