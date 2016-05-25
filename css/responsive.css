@@ -20,9 +20,7 @@ Screen Size 668+
 	}
 
 	.headline {
-	 	text-align: center;
   		top: 32%;
-  		left: 12%;		
   		font-size: 2.7em;  
 		font-weight: 400;
 		line-height: 1.15em;
@@ -85,7 +83,6 @@ Screen Size 1025+
 
 	.headline {
   		top: 43%;
-  		left: 27%;		
   		font-size: 3em;  
 		line-height: 1.25em;
 		letter-spacing: 0.04em;
